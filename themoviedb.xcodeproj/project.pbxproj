@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B699EB914BB130FAD0060F3 /* Pods_MedlabMovieIOSInterview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C488A549E7E555BC63AF400 /* Pods_MedlabMovieIOSInterview.framework */; };
 		AB71836C206B9F8800A91A71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB71836B206B9F8800A91A71 /* AppDelegate.swift */; };
 		AB71836E206B9F8800A91A71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB71836D206B9F8800A91A71 /* ViewController.swift */; };
 		AB718371206B9F8800A91A71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB71836F206B9F8800A91A71 /* Main.storyboard */; };
@@ -34,8 +33,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5823EC9824AB6C29FE3EC96D /* Pods-MedlabMovieIOSInterview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedlabMovieIOSInterview.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedlabMovieIOSInterview/Pods-MedlabMovieIOSInterview.debug.xcconfig"; sourceTree = "<group>"; };
-		5C488A549E7E555BC63AF400 /* Pods_MedlabMovieIOSInterview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedlabMovieIOSInterview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB718368206B9F8800A91A71 /* themoviedb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = themoviedb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB71836B206B9F8800A91A71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB71836D206B9F8800A91A71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +58,6 @@
 		AB9E36CA206BADED00241B17 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		AB9E36CC206BAE0E00241B17 /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
 		AB9E36CE206BB16600241B17 /* DtHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DtHandler.swift; sourceTree = "<group>"; };
-		F45E15C3585D0AE9BFC7542A /* Pods-MedlabMovieIOSInterview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedlabMovieIOSInterview.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedlabMovieIOSInterview/Pods-MedlabMovieIOSInterview.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,28 +65,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B699EB914BB130FAD0060F3 /* Pods_MedlabMovieIOSInterview.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		204351595E4EFDF31A4C2BBE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5C488A549E7E555BC63AF400 /* Pods_MedlabMovieIOSInterview.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		AB71835F206B9F8800A91A71 = {
 			isa = PBXGroup;
 			children = (
 				AB71836A206B9F8800A91A71 /* themoviedb */,
 				AB718369206B9F8800A91A71 /* Products */,
-				B700961FCE88E900405466DC /* Pods */,
-				204351595E4EFDF31A4C2BBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,15 +164,6 @@
 				AB9E36CC206BAE0E00241B17 /* MovieCell.xib */,
 			);
 			name = Views;
-			sourceTree = "<group>";
-		};
-		B700961FCE88E900405466DC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5823EC9824AB6C29FE3EC96D /* Pods-MedlabMovieIOSInterview.debug.xcconfig */,
-				F45E15C3585D0AE9BFC7542A /* Pods-MedlabMovieIOSInterview.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -485,14 +461,13 @@
 		};
 		AB71837E206B9F8900A91A71 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5823EC9824AB6C29FE3EC96D /* Pods-MedlabMovieIOSInterview.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 47PRAEB93T;
-				INFOPLIST_FILE = MedlabMovieIOSInterview/Info.plist;
+				INFOPLIST_FILE = themoviedb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ios.MedlabMovieIOSInterview;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.themoviedb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c6be59cf-a604-4dda-8055-243d1edd41ea";
 				PROVISIONING_PROFILE_SPECIFIER = "Shaadi Development";
@@ -503,15 +478,14 @@
 		};
 		AB71837F206B9F8900A91A71 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F45E15C3585D0AE9BFC7542A /* Pods-MedlabMovieIOSInterview.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 47PRAEB93T;
-				INFOPLIST_FILE = MedlabMovieIOSInterview/Info.plist;
+				INFOPLIST_FILE = themoviedb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ios.MedlabMovieIOSInterview;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.themoviedb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5bb74c9a-5a0e-4f6d-824d-8773f9a39ae1";
 				PROVISIONING_PROFILE_SPECIFIER = "Shaadi Adhoc";

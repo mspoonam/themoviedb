@@ -1,6 +1,6 @@
 //
 //  ImageHandler.swift
-//  MedlabMovieIOSInterview
+
 //
 //  Created by Poonam Pandey on 28/03/18.
 //  Copyright © 2018 Poonam Pandey. All rights reserved.
