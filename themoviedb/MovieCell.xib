@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="bnY-TQ-G4B" customClass="MovieCell" customModule="Sample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="220" height="257"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NHz-i8-QSO">
+                    <rect key="frame" x="0.0" y="0.0" width="220" height="257"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="NHz-i8-QSO" firstAttribute="top" secondItem="vNS-2U-tDz" secondAttribute="top" id="Bsg-Bs-7sA"/>
+                <constraint firstAttribute="trailing" secondItem="NHz-i8-QSO" secondAttribute="trailing" id="M0O-P9-ebA"/>
+                <constraint firstItem="NHz-i8-QSO" firstAttribute="leading" secondItem="bnY-TQ-G4B" secondAttribute="leading" id="N1w-Qr-TZ8"/>
+                <constraint firstItem="NHz-i8-QSO" firstAttribute="bottom" secondItem="vNS-2U-tDz" secondAttribute="bottom" id="i55-tG-93v"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vNS-2U-tDz"/>
+            <connections>
+                <outlet property="filmPosterImageView" destination="NHz-i8-QSO" id="ooK-Er-ghR"/>
+            </connections>
+            <point key="canvasLocation" x="33" y="107.5"/>
+        </view>
+    </objects>
+</document>
